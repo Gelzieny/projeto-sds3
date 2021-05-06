@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css';
 
 function App() {
   return (
-    <h2>Olá Mundo!!</h2>
+    <h2 className="text-primary">Olá Mundo!!</h2>
   );
 }
 
