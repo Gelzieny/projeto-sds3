@@ -25,7 +25,8 @@ const DonutChart = () => {
       setChartData({labels: myLabels, series: mySeries});
     });
   }, []);
-   
+  
+  /*Por que esta dando este erro*/
  
   const options = {
     legend: {
