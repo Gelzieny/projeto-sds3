@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="frontend/public/ds-dark.svg" alt="MoveIt" width="280"/>
+   <img src="https://github.com/Gelzieny/Projeto-sds3/blob/main/frontend/public/logo.png?raw=true" alt="MoveIt" width="280"/>
 </p>
 
 <p align="center">
