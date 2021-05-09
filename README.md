@@ -27,8 +27,8 @@
 ### Fotos
 
 <div>
-   <img src="frontend/public/1.png" alt=""width="400px">
-   <img src="frontend/public/2.png" width="400px">
+   <img src="https://github.com/Gelzieny/Projeto-sds3/blob/main/frontend/public/1.PNG?raw=true" alt=""width="400px">
+   <img src="https://github.com/Gelzieny/Projeto-sds3/blob/main/frontend/public/2.PNG?raw=true" width="400px">
 </div>
 
 # :eyes: Demo
