@@ -28,7 +28,7 @@ const BarChart = () => {
       },
     ],
   });
-
+  /*
   useEffect(() => {
     axios.get(`${BASE_URL}/sale/success-by-seller`).then((response) => {
       const data = response.data as SaleSuccess[];
@@ -47,7 +47,7 @@ const BarChart = () => {
         ],
       });
     });
-  }, []);
+  }, []);*/
 
   const options = {
     plotOptions: {
@@ -57,7 +57,7 @@ const BarChart = () => {
     },
   };
 
-  /*
+
   const mockData = {
     labels: {
       categories: ["Anakin", "Barry Allen", "Kal-El", "Logan", "Padmé"],
@@ -68,11 +68,11 @@ const BarChart = () => {
         data: [43.6, 67.1, 67.7, 45.6, 71.1],
       },
     ],
-  };*/
+  };
   return (
     <Chart
-      options={{ ...options, xaxis: chartData.labels }}
-      series={chartData.series}
+      options={{ ...options, xaxis: mockData.labels }}
+      series={mockData.series}
       type="bar"
       height="240"
     />
