@@ -18,11 +18,12 @@ const DonutChart = () => {
   useEffect(() => {
     axios.get(`${BASE_URL}/sale/amout-by-seller`)
     .then(response => {
+      /*
       const data = response.data as SaleSum[];
       const myLabels = data.map(x => x.sellerName);
       const mySeries = data.map(x => x.sum);
 
-      setChartData({labels: myLabels, series: mySeries});
+      setChartData({labels: myLabels, series: mySeries});*/
     });
   }, []);
   
